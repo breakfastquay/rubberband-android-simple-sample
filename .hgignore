@@ -1,0 +1,5 @@
+syntax: glob
+re:^obj/local/armeabi-v7a/
+re:^obj/local/armeabi/
+*.so
+*.~1~
