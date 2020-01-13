@@ -1,0 +1,29 @@
+
+Rubber Band Android Simple Sample
+=================================
+
+This is a very trivial example Android application that uses the
+Rubber Band Library.
+
+This project serves as an example of how to link to, and call to, the
+Rubber Band Library from Java code in an Android application.
+
+It is *not* an example of how to write an Android application! The
+Android-specific Java code here is absolutely not something that you
+should refer to in your own work. This is simply an illustration of
+the use of the JNI (Android NDK) interface.
+
+To build:
+
+   $ ndk-build
+   $ ant debug
+   $ ant debug install
+
+The application simply pops up an ugly window with Play and Stop
+buttons and plays a canned audio file, slowed down. The file itself is
+loaded (in a raw format) from an app resource. Loading audio files and
+managing the UI is outside the scope of this library.
+
+The example code is public domain; the Rubber Band Library licence is
+documented separately (see http://www.breakfastquay.com/rubberband/).
+
