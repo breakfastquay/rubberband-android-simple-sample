@@ -13,11 +13,17 @@ Android-specific Java code here is absolutely not something that you
 should refer to in your own work. This is simply an illustration of
 the use of the JNI (Android NDK) interface.
 
-To build:
+this assumes you know how to build and run a basic application on Android Studio
 
-   $ ndk-build
-   $ ant debug
-   $ ant debug install
+this includes Rubber Band v1.8.2
+
+To build in Android Studio:
+
+new project from version control
+    git
+        https://github.com/breakfastquay/rubberband-android-simple-sample
+
+then press the PLAY button
 
 The application simply pops up an ugly window with Play and Stop
 buttons and plays a canned audio file, slowed down. The file itself is
