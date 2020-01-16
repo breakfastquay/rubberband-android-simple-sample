@@ -13,7 +13,12 @@ Android-specific Java code here is absolutely not something that you
 should refer to in your own work. This is simply an illustration of
 the use of the JNI (Android NDK) interface.
 
-To build:
+To build, first make sure the Rubber Band Library code is checked out
+at the subdirectory jni/rubberband:
+
+   $ hg clone https://hg.sr.ht/~breakfastquay/rubberband jni/rubberband
+
+Then run:
 
    $ ndk-build
    $ ant debug
